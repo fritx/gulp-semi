@@ -1,0 +1,27 @@
+{
+  "name": "gulp-semi",
+  "description": "Add or remove SEMICOLON of JavaScript",
+  "version": "0.0.1",
+  "homepage": "https://github.com/fritx/gulp-semi",
+  "repository": "git@github.com:fritx/gulp-semi.git",
+  "main": "./index.js",
+  "keywords": [
+    "gulpplugin",
+    "semi",
+    "semicolon",
+    "codestyle"
+  ],
+  "dependencies": {
+    "gulp-util": "^3.0.6",
+    "semi": "^4.0.3",
+    "through2": "^2.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "should": "^7.0.4"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "licenses": "MIT"
+}
