@@ -1,7 +1,7 @@
 {
   "name": "gulp-semi",
-  "description": "Add or remove SEMICOLON of JavaScript",
-  "version": "0.0.1",
+  "description": "Add or remove SEMICOLONs in JavaScript",
+  "version": "0.0.2",
   "homepage": "https://github.com/fritx/gulp-semi",
   "repository": "git@github.com:fritx/gulp-semi.git",
   "main": "./index.js",

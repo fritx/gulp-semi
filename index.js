@@ -4,8 +4,8 @@ var through = require('through2');
 var PluginError = require('gulp-util').PluginError;
 var semi = require('semi');
 
-exports.add = create(semi.add)
-exports.remove = create(semi.remove)
+exports.add = create(semi.add);
+exports.remove = create(semi.remove);
 
 function create(fn) {
 
@@ -20,7 +20,7 @@ function create(fn) {
       if (file.isBuffer()) {
         try {
           var str = file.contents.toString();
-          str = fn(str, options)
+          str = fn(str, options);
           file.contents = new Buffer(str);
         } catch (e) {
           this.emit('error', e);
@@ -30,6 +30,6 @@ function create(fn) {
       this.push(file);
       cb();
     });
-  }
+  };
   
-};
+}

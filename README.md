@@ -4,11 +4,11 @@
 
 <table>
   <tr>
-    <td>Package</td><td>gulp-eol</td>
+    <td>Package</td><td>gulp-semi</td>
   </tr>
   <tr>
     <td>Description</td>
-    <td>Add or remove SEMICOLON of JavaScript</td>
+    <td>Add or remove SEMICOLONs in JavaScript</td>
   </tr>
 </table>
 
